@@ -2,11 +2,30 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Item coke = new Item("drink", "coke",1.5);
-        coke.printItem();
-        coke.setSize("BIG");
-        coke.printItem();
+//        Item coke = new Item("drink", "coke",1.5);
+//        coke.printItem();
+//        coke.setSize("BIG");
+//        coke.printItem();
+//
+//        Item avocado = new Item("Topping", "Avocado", 1.5);
+//        avocado.printItem();
 
+//        Burger burger = new Burger("regular",4.00);
+//        burger.addToppings("BACON","CHEESE","MAYO");
+//        burger.printItem();
+
+//        MealOrder regularMeal = new MealOrder();
+//        regularMeal.addBurgerToppings("BACON","CHEESE","MAYO");
+//        regularMeal.setDrinkSize("LARGE");
+//        regularMeal.printItemizedList();
+//        MealOrder secondMeal = new MealOrder("turkey", "7-up","chili");
+//        secondMeal.addBurgerToppings("LETTUCE","CHEESE","MAYO");
+//        secondMeal.setDrinkSize("SMALL");
+//        secondMeal.printItemizedList();
+        MealOrder deluxeMeal = new MealOrder("deluxe", "7-up","chili");
+        deluxeMeal.addBurgerToppings("AVOCADO","BACON","LETUCE","CHEESE","MAYO");
+        deluxeMeal.setDrinkSize("SMALL");
+        deluxeMeal.printItemizedList();
 
 
     }
